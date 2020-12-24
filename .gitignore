@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+*.dll
+*.pdb
+
+/.vs
+/BookListRazor/.vs
+/BookListRazor/bin/Debug/netcoreapp3.1
+/BookListRazor/obj
+**/dist
+/dist
