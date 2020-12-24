@@ -1,5 +1,9 @@
 # BookListRazor
 
+A simple application implemented in ASP.Net Core (3.1) MVC with CRUD operations using Entity framework and SQL database.
+
+IDE - Visual studio 2019
+
 - Whenever there is any change in cshtml file, the changes doesnot reflect in the browser until the solution is restarted.
   - To overcome this issue, Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation nuget package was installed.
 
