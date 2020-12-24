@@ -11,3 +11,6 @@
 - Used the following scripts to do initial migration using package manager console.
   - To create migration script - add-migration AddBookToDB
   - To execute the script - update-database
+
+- Client side valiation should be implemented along with server side validation.
+  - By using '_ValidationScriptsPartial' in the cshtml file you want to implement client side validation 
