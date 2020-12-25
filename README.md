@@ -5,7 +5,7 @@ A simple application implemented in ASP.Net Core (3.1) MVC with CRUD operations 
 IDE - Visual studio 2019
 
 - Whenever there is any change in cshtml file, the changes doesnot reflect in the browser until the solution is restarted.
-  - To overcome this issue, Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation nuget package was installed.
+  - To overcome this issue, Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation nuget package was installed and  ``services.AddControllersWithViews().AddRazorRuntimeCompilation()  ``was added in Startup class.
 
 - Installed the following nuget package for using Entity framework.
   - Microsoft.EntityFrameworkCore
